@@ -1,0 +1,19 @@
+﻿<Window x:Class="wpfDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WPF_MainWindow" Height="350" Width="525" Closed="Window_Closed">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="267*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Margin="4" Orientation="Horizontal">
+            <Button Content="Open" Width="60" Height="30" Click="btnOpen_Click"/>
+            <Button Content="Play" Width="60" Height="30" Click="btnPlay_Click"/>
+            <Button Content="Pause" Width="60" Height="30" Click="btnPause_Click"/>
+            <Button Content="Stop" Width="60" Height="30" Click="btnStop_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>

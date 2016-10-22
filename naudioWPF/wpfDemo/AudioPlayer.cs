@@ -1,0 +1,7 @@
+﻿
+namespace wpfDemo
+{
+    class AudioPlayer
+    {
+    }
+}
