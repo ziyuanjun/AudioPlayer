@@ -42,5 +42,12 @@ namespace winmmForm
             if(_mp3player!=null)
                _mp3player.Dispose();
         }
+
+        private void btnPause_Click(object sender, EventArgs e)
+        {
+            if(_mp3player!=null)
+               _mp3player.pause();
+
+        }
     }
 }

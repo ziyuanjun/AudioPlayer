@@ -1,0 +1,6 @@
+* day1
+  使用 DllImport 方式，成功调用 winmm.dll 的 mciSendString 函数。
+  参考：https://www.youtube.com/watch?v=STNAOk_IiqE
+  可以完成.mp3 文件的播放、暂停、停止功能。
+
+  尝试了建立控制台程序，程序未报错，但并没有正常播放。可能原因：控制台程序要求 main 函数是 static 的；未使用多线程。

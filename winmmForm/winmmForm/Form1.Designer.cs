@@ -31,6 +31,7 @@
             this.btnOpen = new System.Windows.Forms.Button();
             this.btnPlay = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
+            this.btnPause = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOpen
@@ -55,7 +56,7 @@
             // 
             // btnStop
             // 
-            this.btnStop.Location = new System.Drawing.Point(193, 1);
+            this.btnStop.Location = new System.Drawing.Point(259, 1);
             this.btnStop.Name = "btnStop";
             this.btnStop.Size = new System.Drawing.Size(75, 23);
             this.btnStop.TabIndex = 2;
@@ -63,11 +64,22 @@
             this.btnStop.UseVisualStyleBackColor = true;
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
+            // btnPause
+            // 
+            this.btnPause.Location = new System.Drawing.Point(178, 1);
+            this.btnPause.Name = "btnPause";
+            this.btnPause.Size = new System.Drawing.Size(75, 23);
+            this.btnPause.TabIndex = 3;
+            this.btnPause.Text = "Pause";
+            this.btnPause.UseVisualStyleBackColor = true;
+            this.btnPause.Click += new System.EventHandler(this.btnPause_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(521, 262);
+            this.Controls.Add(this.btnPause);
             this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.btnOpen);
@@ -83,6 +95,7 @@
         private System.Windows.Forms.Button btnOpen;
         private System.Windows.Forms.Button btnPlay;
         private System.Windows.Forms.Button btnStop;
+        private System.Windows.Forms.Button btnPause;
     }
 }
 
